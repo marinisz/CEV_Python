@@ -1,0 +1,7 @@
+times = ('FLAMENGO', 'PALMEIRAS', 'SANTOS', 'SÃO PAULO', 'GRÊMIO', 'ATHLETICO', 'INTERNACIONAL', 'CORINTHIANS', 'GOIÁS', 'BAHIA', 'VASCO', 'FORTALEZA', 'ATLÉTICO-MG', 'BOTAFOGO', 'CEARÁ', 'CRUZEIRO', 'FLUMINENSE', 'CSA', 'CHAPECOENSE', 'AVAÍ')
+alfa = sorted(times)
+chape = times.index('CHAPECOENSE')
+print(f'A Chape está na {chape}ª posição')
+print(f'Os 5 primeiros times são: {times[0:5]}')
+print(f'Os 4 últimos times são: {times[-4:]}')
+print(f'Os times em ordem alfabética: {alfa}')
